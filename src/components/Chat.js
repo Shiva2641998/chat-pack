@@ -8,4 +8,4 @@ function Chat({title = ""}) {
   );
 }
 
-export {Chat};
+export default Chat;
