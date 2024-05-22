@@ -2,14 +2,18 @@
   "name": "chat-pack",
   "version": "0.1.2",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.5.2",
+    "chat-pack": "^0.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^8.1.3",

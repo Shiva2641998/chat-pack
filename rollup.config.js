@@ -9,7 +9,7 @@ export default [
     input: './src/Chat.js',
     output: [
       {
-        file: 'dist/index.js',
+        file: 'build/index.js',
         format: 'cjs',
       },
       {
