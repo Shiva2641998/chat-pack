@@ -1,4 +1,3 @@
-import React from 'react'
 import './Chat.css';
 
 function Chat({title = ""}) {
@@ -9,4 +8,4 @@ function Chat({title = ""}) {
   );
 }
 
-export default Chat;
+export {Chat};
