@@ -1,6 +1,6 @@
-import './App.css';
+import './Chat.css';
 
-function App({title = ""}) {
+function Chat({title = ""}) {
   return (
     <div className="App">
       <h1>{title} Shivam</h1>
@@ -8,4 +8,4 @@ function App({title = ""}) {
   );
 }
 
-export default App;
+export default Chat;

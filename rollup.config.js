@@ -6,7 +6,7 @@ import postcss from 'rollup-plugin-postcss';
 
 export default [
   {
-    input: './src/App.js',
+    input: './src/Chat.js',
     output: [
       {
         file: 'dist/index.js',
