@@ -2,10 +2,10 @@
   "name": "chat-pack",
   "version": "0.1.5",
   "private": false,
-  "main": "build/index.js",
-  "module": "build/index.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "files": [
-    "build"
+    "dist"
   ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
