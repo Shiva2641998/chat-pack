@@ -6,7 +6,8 @@ import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 import replace from '@rollup/plugin-replace';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-
+import react from 'react';
+import reactDom from 'react-dom';
 
 export default [
   {
@@ -26,8 +27,8 @@ export default [
     commonjs({
       include: 'node_modules/**',
       namedExports: {
-        'react': ['createElement', 'Component', 'useState', 'useEffect', 'useMemo'], // Add other named exports you need
-        'react-dom': ['render']
+        react: Object.keys(react),
+        'react-dom': Object.keys(reactDom)
       }
     }),
     babel({
