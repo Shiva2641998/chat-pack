@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useMemo} from "react";
 import { Provider } from "react-redux";
 import Chat from "./components/Chat";
 import { store } from "./app/store";
