@@ -11,4 +11,4 @@ const ChatBox = ({ ...rest }) => {
   );
 };
 
-export { ChatBox };
+// export { ChatBox };
