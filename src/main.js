@@ -5,11 +5,9 @@ import { store } from "./app/store";
 
 const ChatBox = ({ ...rest }) => {
   return (
-    <React.StrictMode>
       <Provider store={store}>
         <Chat {...rest} />
       </Provider>
-    </React.StrictMode>
   );
 };
 
