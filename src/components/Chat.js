@@ -4,7 +4,7 @@ import './Chat.css';
 function Chat({title = ""}) {
   return (
     <div className="App">
-      <h1>{title} Shivam</h1>
+      <h1>{title} Shivam Kumar</h1>
     </div>
   );
 }
