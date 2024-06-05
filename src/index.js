@@ -12,7 +12,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Chat title='welcome'/>
+      <Chat title='Welcome'/>
     </Provider>
   </React.StrictMode>
 );
