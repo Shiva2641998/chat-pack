@@ -26,7 +26,7 @@ export default [
     commonjs({
       include: 'node_modules/**',
       namedExports: {
-        'react': ['createElement', 'Component', 'useState', 'useEffect'], // Add other named exports you need
+        'react': '*', // Add other named exports you need
         'react-dom': ['render']
       }
     }),
