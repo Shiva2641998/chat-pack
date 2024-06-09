@@ -9,7 +9,7 @@ function Chat({title = ""}) {
 
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
       {/* {count} */}
       <h1
       // onClick={() => dispatch(increment())}
