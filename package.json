@@ -1,6 +1,6 @@
 {
-  "name": "chat-pack",
-  "version": "0.1.28",
+  "name": "chat-pack-npm",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
