@@ -11,7 +11,7 @@ import reactDom from 'react-dom';
 
 export default [
   {
-    input: './src/main.js',
+    input: './src/index.js',
     output: [
       {
         file: 'dist/index.js',
