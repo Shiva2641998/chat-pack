@@ -3,12 +3,12 @@ import { Provider } from "react-redux";
 import Chat from "./components/Chat";
 import { store } from "./app/store";
 
-const ChatBox = ({ ...rest }) => {
+const ChatBox = ({ title }) => {
   return (
       <Provider store={store}>
-        <Chat {...rest} />
+        <Chat title={title} />
       </Provider>
   );
 };
 
-// export { ChatBox };
+export { ChatBox };

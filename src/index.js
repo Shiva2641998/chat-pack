@@ -17,13 +17,6 @@ root.render(
   </React.StrictMode>
 );
 
-export const ChatBox = ({ ...rest }) => {
-  return (
-        <Provider store={store}>
-          <Chat {...rest} />
-        </Provider>
-  );
-};
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

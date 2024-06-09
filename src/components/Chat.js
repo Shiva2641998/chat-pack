@@ -1,7 +1,7 @@
 import './Chat.css';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { increment, selectCount } from '../features/counter/counterSlice';
-// import { Counter } from '../features/counter/Counter';
+import { Counter } from '../features/counter/Counter';
 
 function Chat({title = ""}) {
   // const count = useSelector(selectCount);
@@ -9,7 +9,7 @@ function Chat({title = ""}) {
 
   return (
     <div className="App">
-      {/* <Counter /> */}
+      <Counter />
       {/* {count} */}
       <h1
       // onClick={() => dispatch(increment())}
